@@ -1,0 +1,403 @@
+:root {
+    --primary-color : #01fd9f; 
+    --font-color  : #80a2b5;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item a{
+    color: #80a2b5 !important;
+}
+
+.nav-item:active{
+    color: #01fd9f;
+}
+
+.navbar-light .navbar-toggler-icon{
+
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,255,159,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");;
+
+}
+
+.navbar img{
+    width: 25%;
+}
+
+.navbar-nav
+{
+    margin-Right: 100px;
+}
+.Desktop_header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desktop_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0;
+}
+
+.links li{
+
+    list-style: none;
+    padding: 0 20px;    
+    align-items: center;
+ 
+}
+.links li a:active {
+    color: var(--primary-color);
+}
+.links li a{
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:#000 !important;
+}
+.navbar-toggler-icon {
+    color: var(--font-color) !important;
+    background-color: #fff;
+    border-radius:2px;
+    padding: 20px !important;
+
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primart-color);
+}
+
+
+@media(max-width:786px){
+        header{
+            display: none;
+        }
+}
+
+@media(min-width:786px){
+    .navbar{
+        display:none;
+    }
+    .custom-card{
+        margin-top: -400px;
+    }
+    .card-top{
+            margin-left: 90px;
+    }
+}
+.background{
+    width: 100%;
+    height: 70% !important;
+    overflow: hidden;
+}
+.background img{
+    width: 100%;
+    height: 100%
+}
+.content{
+    position: absolute;
+    top: 19%;
+    left: 4%;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+h1 span{
+    
+    color: #113342;
+    
+}
+.custom-card{
+    border: 1px solid #113342;
+    background-color: #113342;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.custom-card h1{
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.founder-text span{
+    color: #10b9b2;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.founder-text h1{
+ color: #113342;
+ font-size: 40px;
+ font-weight: 700;
+}
+
+.founder-text p{
+    color: #113342;
+    font-size: 18px;
+ font-weight: 500;
+
+   }
+
+
+
+
+
+ 
+   .self-text h2{
+    color: #10b9b2;
+    font-size: 35px;
+ font-weight: 700;
+}
+
+.self-text h1{
+ color: #113342;
+ font-size: 40px;
+ font-weight: 700;
+}
+
+.self-text p{
+    color: #113342;
+    font-size: 18px;
+ font-weight: 500;
+}
+
+.crime-background{
+    background-color: #113342;
+    padding: 50px;
+    /* border-top-left-radius: 20%; */
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.crime-text{
+    padding-left: 100px;
+}
+.crime-text span{
+    color: #02af9d;
+    font-size: 15px;
+ font-weight: 700;
+ letter-spacing: 0.2em;
+}
+
+.crime-text h1{
+ color: #fff;
+ font-size: 35px;
+ font-weight: 700;
+}
+
+.crime-text p{
+    color: #fff;
+    font-size: 18px;
+ font-weight: 400;
+}
+
+.foo-sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foo-sec1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff;
+}
+.foo-sec1 p{
+    color: #fff;
+}
+
+.foo-sec2{
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+    flex-direction: column;
+}
+.foo-sec2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.foo-sec2 p{
+    font-size: 15px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.foo-sec2 p{
+    font-size: 15px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.location p i{
+    border: 1px solid  #02af9d;
+    color: #fff;
+    background-color: #02af9d;
+    padding: 10px 12px;
+    border-radius: 40px;
+}
+
+.email p i{
+    border: 1px solid  #02af9d;
+    color: #fff;
+    background-color: #02af9d;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+
+.icon a i{
+    border: 1px solid  #02af9d;
+    color: #fff;
+    background-color: #02af9d;
+    padding: 10px 13px;
+    border-radius: 40px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+
+
+.service-text span{
+    color: #10b9b2;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.service-text h1{
+ color: #113342;
+ font-size: 40px;
+ font-weight: 700;
+}
+
+.service-text p{
+    color: #113342;
+    font-size: 18px;
+ font-weight: 500;
+
+   }
+
+   .service-heading h1{
+        
+    color: #113342;
+ font-size: 40px;
+ font-weight: 700;
+
+   }
+
+
+   .service-heading span{
+        
+    color: #10b9b2;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+
+   }
+
+.button .btn{
+    background-image: linear-gradient(to right,#01fd9f, #10b9b2 )  !important;
+    border: none !important;
+    padding: 10px  50px;
+    border-radius: 4px !important;
+    position: absolute;
+}
+
+
+.service-card{
+    background-color: #dee8fa9a;
+    border: 1px solid #01fd9f;
+    padding: 30px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-other {
+    background-color: #dee8fa9a;
+    border: 1px solid #01fd9f;
+    padding: 30px;
+    /* height: 450px; */
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width :786px){
+    .service-card{
+        margin-top: 50px;
+    }
+    .card-part{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foo-sec2{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .footer-logo{
+        margin-top: 30px;
+    }
+    .button .btn{
+          top: 2.5%;
+    }
+    
+    .content{
+        position: absolute;
+        top: 22%;
+        left: 4%;
+    }
+
+    .content h1{
+        font-size: 14px;
+        font-weight: 800;
+        color: #fff;
+    }
+    .crime-background{
+     border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important; 
+    }
+    .crime-text{
+        padding-left: 10px;
+    }
+   
+    
+}
+
+
+.conatct-input input{
+    background-color: #e6f7f7;
+}
+
+.conatct-input textarea{
+    background-color: #e6f7f7;
+}
+.btn-contact{
+    background-color: #02b5ae;
+    color: #fff;
+}
+
+@media(min-width:786px){
+    .service-card{
+        margin-left: 20px;
+    }
+}
