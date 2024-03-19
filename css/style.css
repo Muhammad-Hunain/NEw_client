@@ -128,6 +128,7 @@ body
     letter-spacing: 0.2px;
 }
 
+
 h1 span{
     
     color: #113342;
@@ -380,9 +381,15 @@ h1 span{
     
 
     .content h1{
-        font-size: 14px;
+        font-size: 12.6px;
         font-weight: 800;
         color: #fff;
+    }
+
+    h1 span{
+    
+        color: #113342;
+        
     }
     .crime-background{
      border-top-right-radius: 0 !important;
@@ -400,7 +407,7 @@ h1 span{
 .content{
     position: absolute;
     top: 30%;
-    left: 3%;
+    left: 1%;
 }
     
 }
@@ -432,5 +439,14 @@ h1 span{
     display: none;
 }
 
+@media(max-width:786px){
 
+.other-img{
+    width:80% !important;
+    margin-left: 20px;
+}
+}
+.crime-text {
+    margin-top: 20px !important;
 
+}
