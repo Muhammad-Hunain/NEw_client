@@ -340,7 +340,7 @@ h1 span{
 
 .service-card{
     background-color: #f6fcff;
-    border: 1px solid #01fd9f;
+    /* border: 1px solid #01fd9f; */
     padding: 30px;
     height: auto;
     display: flex;
@@ -349,7 +349,7 @@ h1 span{
 
 .card-other {
     background-color: #f6fcff;
-    border: 1px solid #01fd9f;
+    /* border: 1px solid #01fd9f; */
     padding: 30px;
     /* height: 450px; */
     display: flex;
