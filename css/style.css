@@ -333,8 +333,11 @@ h1 span{
     background-image: linear-gradient(to right,#01fd9f, #10b9b2 )  !important;
     border: none !important;
     padding: 10px  50px;
+    font-family: Montserrat;
+    font-weight: 800;
     border-radius: 4px !important;
     position: absolute;
+    outline: none;
 }
 
 
