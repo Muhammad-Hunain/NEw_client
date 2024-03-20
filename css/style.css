@@ -398,6 +398,7 @@ h1 span{
     }
     .crime-text {
         padding: 0;
+        margin-left: -40px;
     }
    .background{
     width: 100%;
