@@ -199,7 +199,7 @@ h1 span{
 }
 
 .crime-text{
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .crime-text span{
     color: #02af9d;
@@ -435,6 +435,13 @@ h1 span{
     }
 
 }
+.set-screen-1{
+    margin-left: 60px;
+}
+
+.set-screen{
+    margin-left: -80px;
+}
 
 .service-img-1 img{
     display: none;
@@ -446,6 +453,13 @@ h1 span{
     width:80% !important;
     margin-left: 20px;
 }
+.set-screen{
+    margin-left: 0px;
+}
+.set-screen-1{
+    margin-left: 0px;
+}
+
 }
 .crime-text {
     margin-top: 20px !important;
