@@ -463,6 +463,11 @@ h1 span{
     margin-left: 20px;
 }
 
+.card-other-res{
+    display: flex;
+    justify-content: flex-start !important;
+}
+
 }
 .crime-text {
     margin-top: 20px !important;
